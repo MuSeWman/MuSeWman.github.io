@@ -11,9 +11,8 @@ header {
 	padding-bottom: 15px;
 }
 
-#name {
-	text-align: center;
-	padding-left: 80px;
+.name {
+	margin-left: 100px;
 }
 
 p {
@@ -54,12 +53,13 @@ a:hover, a:active {
 }
 
 #profilepic {
-  	position: absolute;
   	padding-left: 10px 5px 5px 5px;
   	border-bottom: 5px solid green;
   	border-right: 5px solid green;
   	border-top: 5px solid green;
   	border-radius: 25px;
+  	float: left;
+
 }
 
 .column {
