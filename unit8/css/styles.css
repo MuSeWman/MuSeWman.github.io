@@ -8,55 +8,42 @@
 	margin: 0 auto;
 }
 
-/*header {
-	padding-left: .2em;
-	padding-bottom: .2em;
-	font-size: 1.8em;
-}
-*/
-
 .title {
-	margin-left: 1em;
+	padding-right: 1.5em;
 	font-size: 2.5em;
 }
 
-p {
-	font-weight: normal;
+.title h2 {
+	font-size: .7em;
 }
 
-h2 {
-	font-size: .8em;
-}
-
-nav li {
+.nav_links {
 	padding: .5em;
-	display: inline-block;
 	text-align: center;
-	margin: 0 auto;
 	float: right;
 	border-left: 1px solid green;
 	border-right: 1px solid green;
+	text-transform: uppercase;
+	margin: 0 auto;
 }
 
 nav a {
-  color: #F0F0F0;
-  font-size: 1.5em;
-  font-weight: bold;
-  padding: .2em .8em;
-  text-transform: uppercase;
-  margin: 0 auto;
+	display: inline-block;
+	color: #F0F0F0;
+  	font-size: 1.4em;
+  	font-weight: bold;
 }
 
-#Home {
+#home {
 	background-color: green;
+	padding: 1em 1em 1em 1em;
 }
 
 #heropic {
-	width: 90%;
+	width: 100%;
 	height: 25%;
 	border-top: .2em solid green;
 	padding: 1em 1em 1em 1em;
-	margin: 0 auto;
 }
 
 #main {
@@ -66,11 +53,17 @@ nav a {
 
 .column {
 	font-size: 1.5em;
-	width: 33%;
+	width: 28%;
 	height: 25%;
 	float: left;
-	padding: 1em 1em 1em 1em;
 	margin: 0 auto;
+}
+
+#slideshow img {
+	width: 90%;
+	height: auto;
+	text-align: center;
+	font-style: italic;
 }
 
 #slideshow {
@@ -84,9 +77,17 @@ nav a {
 }
 
 #welcome {
-	font-size: 1.4em;
-
+	font-size: 1.2em;
 }
+
+#contact {
+	font-size: 1.2em;
+}
+
+#contact a {
+	color: #F0F0F0;
+}
+
 
 footer {
 	font-size: 1.2em;
