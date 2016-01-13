@@ -17,18 +17,17 @@
 	font-size: .7em;
 }
 
-.nav_links {
+.nav_links li {
 	padding: .5em;
 	text-align: center;
 	float: right;
 	border-left: 1px solid green;
 	border-right: 1px solid green;
 	text-transform: uppercase;
-	margin: 0 auto;
+	display: inline-block;
 }
 
-nav a {
-	display: inline-block;
+.nav_links a {
 	color: #F0F0F0;
   	font-size: 1.4em;
   	font-weight: bold;
@@ -114,3 +113,5 @@ a:hover, a:active {
   clear: both;
   height: 0;
 }
+
+/*@media* only screen and (max-width:800px)/
