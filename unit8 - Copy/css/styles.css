@@ -1,0 +1,190 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* {box-sizing:border-box;}
+
+body {
+    background-color: #000035;
+    font-size: 14px;
+	font-family: Montserrat, sans-serif;
+	color: #F0F0F0;
+}
+
+#container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title {
+	padding-right: 1.5em;
+	font-size: 2.5em;
+	float: left;
+}
+
+.title h2 {
+	font-size: .7em;
+}
+
+.nav_links {
+	padding: .5em;
+	text-align: center;
+	float: right;
+	padding-left: .5em;
+	padding-right: .5em;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.nav_links a {
+	color: #F0F0F0;
+  	font-size: 1.4em;
+  	padding-left: .5em;
+	padding-right: .5em;
+  	border-left: 1px solid green;
+	border-right: 1px solid green;
+}
+
+#home {
+	background-color: green;
+	padding: 1em 1em 1em 1em;
+}
+
+#heropic {
+	width: 100%;
+	border-top: .2em solid green;
+	padding: 1em 1em 1em 1em;
+}
+
+.column {
+	font-size: 1.5em;
+	width: 28%;
+	height: 25%;
+	float: left;
+	padding: 1em .5em .5em 1em;
+	margin: 0 auto;
+}
+
+#slideshow img {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-style: italic;
+}
+
+#slideshow {
+	width: 33%;
+	text-align: center;
+	font-style: italic;
+}
+
+#profilepic {
+	width: 130px;
+	height: 200px;
+}
+
+#welcome {
+	font-size: 1.2em;
+}
+
+#contact {
+	font-size: 1.2em;
+}
+
+#contact a {
+	color: #F0F0F0;
+}
+
+footer {
+	font-size: 1.2em;
+	color: white;
+	background-color: black;
+	padding: 1em 1em 1em 1m;
+	text-align: center;
+	clear: both;
+}
+
+strong {
+	color: green;
+}
+
+a:hover, a:active {
+	background-color: green;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+/*------------------- Media Queries -------------------*/
+@media only screen and (max-width: 900px) {
+	.nav_links {
+		float: none;
+		display: block;
+		clear: both;	
+	}
+
+	.title {
+		float: none;
+		text-align: center;
+	}
+
+	#home {
+		background-color: none;
+		padding: 0;
+	}
+
+	#slideshow {
+		display: none;
+	}
+
+	.column {
+		width: 48%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.title {
+		float: none;
+		text-align: center;
+	}
+
+	#home {
+		background-color: none;
+		padding: 0;
+	}
+
+	.title h2 {
+		font-size: .4em;
+	}
+
+	#heropic {
+		display: none;
+	}
+
+	#nav_links {
+		clear: both;
+		display: block;
+	}
+
+	#welcome {
+		width: 100%;
+		clear: both;
+	}
+
+	#contact {
+		width: 100%;
+		clear: both;
+	}
+
+	#contact img{
+		width: 75%;
+		padding-left: 5em;
+	}
+
+	#slideshow {
+		display: none;
+	}
+
+	
